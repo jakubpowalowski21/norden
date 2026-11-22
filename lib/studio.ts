@@ -19,9 +19,9 @@ export const studio = {
 
 export const images = {
   hero: { src: "/images/hero.webp", alt: "Przeszklony dom oświetlony o zmierzchu, wśród drzew" },
-  studio: { src: "/images/studio-1.webp", alt: "Stół z makietami w pracowni architektonicznej" },
-  materials: { src: "/images/studio-2.webp", alt: "Próbki drewna i kamienia oraz szkice architektoniczne" },
-  facade: { src: "/images/facade-cover.webp", alt: "Cienie na jasnej kamiennej elewacji" },
+  studio: { src: "/images/stock-studio.webp", alt: "Stół przy dużych oknach w jasnym loftowym wnętrzu" },
+  materials: { src: "/images/stock-materials.webp", alt: "Próbki drewna, kamienia i tkanin na jasnym blacie" },
+  facade: { src: "/images/stock-facade.webp", alt: "Geometryczne cienie na jasnej elewacji" },
 } satisfies Record<string, Photo>;
 
 export const services = [
@@ -43,7 +43,7 @@ export const services = [
     description: "Porządkujemy układ pomieszczeń, światło i przechowywanie. Materiały wybieramy z uwzględnieniem codziennego użytkowania, a meble na wymiar projektujemy tam, gdzie naprawdę robią różnicę.",
     scope: ["Układ funkcjonalny", "Dobór materiałów i oświetlenia", "Wizualizacje wnętrz", "Rysunki wykonawcze i zestawienia"],
     benefit: "Otrzymujesz spójną koncepcję wnętrza i zestawienia ułatwiające zamówienie materiałów oraz wycenę prac.",
-    photo: { src: "/images/atelier-no-4-1.webp", alt: "Salon z orzechową zabudową i naturalnymi tkaninami" },
+    photo: { src: "/images/stock-interior.webp", alt: "Salon z beżową sofą, fotelem i ciemnym stolikiem" },
   },
   {
     id: "architektura-komercyjna",
